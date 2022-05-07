@@ -1,6 +1,8 @@
 #!/bin/bash 
 # Define la lista del menú aqui
 
+clear
+date
 PS3="Selecciona una operación: " 
 
 select opt in suma resta multiplicar dividir salir; 
